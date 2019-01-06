@@ -13,7 +13,7 @@ const urlSchema = new Schema({
     type: Number,
     required: true
   }
-})
+});
 
 const Url = mongoose.model('Url', urlSchema);
 
